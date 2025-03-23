@@ -1,6 +1,6 @@
 <section>
     <div class="flex justify-end mr-6 pb-4">
-        <a href="/posts/create" class="text-indigo-500 hover:text-indigo-700">Create</a>
+        <a href="/posts/create" class="text-indigo-500 hover:text-indigo-700">Tambah</a>
     </div>
 
     <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
@@ -33,7 +33,7 @@
                 @empty
                     <tr>
                         <td colspan="4" class="px-6 py-4 text-center text-gray-500">
-                            No posts available
+                            Tidak ada post 
                         </td>
                     </tr>
                 @endforelse
