@@ -14,6 +14,7 @@ class PostCreate extends Component
     public function savePost()
     {
         $this->form->store();
+        session()->flash('success', 'post berhasil di buat');
         return redirect()->to('/posts');
     }
     public function render()

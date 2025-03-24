@@ -19,6 +19,7 @@ class PostEdit extends Component
     public function updatePost()
     {
         $this->form->update();
+        session()->flash('success', 'post berhasil di edit');
         return redirect()->to('/posts');
     }
     public function render()
